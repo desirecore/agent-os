@@ -2,7 +2,6 @@
 
 [![GitHub release](https://img.shields.io/github/v/release/desirecore/distribution)](https://github.com/desirecore/distribution/releases/latest)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Web-blue)
-[![Downloads](https://img.shields.io/github/downloads/desirecore/distribution/total)](https://github.com/desirecore/distribution/releases)
 ![Electron](https://img.shields.io/badge/Electron-latest-47848F?logo=electron&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 
@@ -48,7 +47,9 @@
 | **内存** | 4 GB | 8 GB+ |
 | **网络** | AI 模型 API 调用需联网 | 建议宽带连接 |
 
-> DesireCore 还支持纯 **Web 模式**，可在现代浏览器中运行（Chrome、Firefox、Safari、Edge）。
+> **Web 版本** 正在开发中，发布后可在现代浏览器中直接使用（Chrome、Firefox、Safari、Edge）。
+>
+> **移动端版本**（Android、HarmonyOS、iOS 手机和 iPad）也正在开发中。
 
 ---
 
@@ -180,9 +181,13 @@ DesireCore 开箱即用支持 14+ AI 服务商，包括 OpenAI、Anthropic（Cla
 
 安全。所有数据默认存储在本地。本地功能无需任何网络连接。云同步是可选的，使用端到端加密。
 
-### 可以只用 Web 模式吗？
+### 有 Web 版本吗？
 
-可以。DesireCore 支持纯 Web 模式。你可以从源码运行 `npm run dev:web`，或访问在线 Web 版本。
+Web 版本正在开发中。发布后你可以直接在浏览器中使用 DesireCore，无需安装桌面应用。
+
+### 有移动端 App 吗？
+
+Android、HarmonyOS 和 iOS（iPhone 和 iPad）版本正在开发中。请关注[官方网站](https://www.desirecore.com)获取最新动态。
 
 ### 如何分享我训练好的智能体？
 
