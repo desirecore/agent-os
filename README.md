@@ -2,7 +2,6 @@
 
 [![GitHub release](https://img.shields.io/github/v/release/desirecore/distribution)](https://github.com/desirecore/distribution/releases/latest)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Web-blue)
-[![Downloads](https://img.shields.io/github/downloads/desirecore/distribution/total)](https://github.com/desirecore/distribution/releases)
 ![Electron](https://img.shields.io/badge/Electron-latest-47848F?logo=electron&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 
@@ -48,7 +47,9 @@ Unlike traditional assistants that only respond to commands, DesireCore learns y
 | **RAM** | 4 GB | 8 GB+ |
 | **Network** | Required for AI model API calls | Broadband recommended |
 
-> DesireCore also supports a pure **Web mode** that runs in modern browsers (Chrome, Firefox, Safari, Edge).
+> **Web version** is currently in development and will run in modern browsers (Chrome, Firefox, Safari, Edge).
+>
+> **Mobile versions** for Android, HarmonyOS, and iOS (iPhone & iPad) are also in development.
 
 ---
 
@@ -182,7 +183,11 @@ Yes. All data is stored locally by default. The app works without any network co
 
 ### Can I use DesireCore without Electron (Web only)?
 
-Yes. DesireCore supports a pure Web mode. You can run `npm run dev:web` from source or access the hosted Web version.
+The Web version is currently in development. Once released, you will be able to use DesireCore directly in your browser without installing any desktop app.
+
+### Are there mobile apps?
+
+Mobile versions for Android, HarmonyOS, and iOS (iPhone & iPad) are in development. Stay tuned for updates on the [official website](https://www.desirecore.com).
 
 ### How do I share my trained agents?
 
