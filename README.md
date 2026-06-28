@@ -17,7 +17,7 @@ English | [简体中文](README.zh-CN.md)
 
 Unlike traditional assistants that only respond to commands, DesireCore learns your way of working through everyday conversations. It remembers your preferences, forms habits, and gradually becomes a digital companion that truly understands you.
 
-**Delegation-based interaction** means you don't need to operate the AI step by step. Instead, you express your intent, and DesireCore's agents autonomously plan, execute, and report back — like delegating work to a capable colleague.
+**Delegation-based interaction** means you don't need to operate the AI step by step. Instead, you express your intent, and DesireCore's agents autonomously plan, execute, and report back — like delegating work to a capable colleague. The whole experience follows a simple loop: **Teach → Collaborate → Execute**.
 
 ### Core Philosophy
 
@@ -27,14 +27,65 @@ Unlike traditional assistants that only respond to commands, DesireCore learns y
 
 ---
 
-## Features
+## Capabilities
 
-- **Learns** — Teach it via conversation; it remembers your preferences and forms working habits over time
-- **Acts** — Not just chat; agents can actually execute tasks, call tools, and report results back to you
-- **Auditable** — Every action is recorded: what happened, why it happened, and what data was used
-- **Reversible** — Roll back any action anytime; experiment fearlessly without permanent consequences
-- **Composable** — Combine agents, skills, and tools like building blocks to create complex workflows
-- **Shareable** — Export and share your trained agents with others via the marketplace or Git repositories
+DesireCore is more than a chatbot — it's an operating system for agents.
+
+### 🗣️ Teach by Conversation
+
+Train agents the way you'd onboard a colleague — set rules, show examples, and correct mistakes in plain language. No code, no flowcharts. What you teach becomes a permanent, editable rule.
+
+### 🧠 Memory & Continuous Evolution
+
+Agents keep long-term memory across sessions. **Auto Dream** consolidates day-to-day experience into lasting knowledge, so skills and agents keep improving on their own.
+
+### 👥 Multi-Agent Collaboration
+
+Assemble a team through conversation. DesireCore runs **SubAgents**, async tasks, **Swarm**, and **Team** modes — multiple specialized agents working in parallel to cut latency and token cost.
+
+### ⚙️ Workflow Orchestration & Automation
+
+A visual workflow editor, a decision-tree engine, and replay/debugging. Trigger work on a schedule, by event, or by condition — and let agents drive desktop GUIs (open apps, click buttons, recognize screens) for true end-to-end automation.
+
+### 📁 AgentFS — Everything is a File
+
+Agents, memories, skills, and rules live as plain files: Git-friendly, inspectable, exportable, and version-controlled. Bring Your Own Key (BYOK) keeps data flowing directly to your provider, never through a middleman.
+
+### 🛡️ Three-Layer Safety & Control
+
+Every step is visible in real time, permissions are set per tool, and any action can be rolled back. Low-risk actions auto-approve, high-risk actions wait for your review, and dangerous actions are blocked — all backed by a complete audit trail.
+
+### 🎨 Multimodal
+
+Work across text, images, voice, video, and code.
+
+### 🔌 Model-Agnostic
+
+No vendor lock-in. Connect OpenAI, Anthropic (Claude), Google (Gemini), DeepSeek, Qwen, local models via Ollama, and more — using your own API key.
+
+### 🛒 Agent Market
+
+Publish and discover agents, skills, and workflow templates built by the community.
+
+---
+
+## Use Cases
+
+DesireCore adapts to real, everyday work:
+
+- **Documents & contracts** — smart drafting and diff-based review
+- **Email** — unified inbox management across Gmail, Outlook, and IMAP
+- **Software development** — coding with full file-system access
+- **Monitoring** — scheduled data checks and reporting
+- **Research** — literature review and paper processing
+- **Professional writing** — bids and tenders, official documents, and reports
+- **Domain decisions** — e.g. power-trading decision support
+
+---
+
+## HostAgent
+
+**HostAgent** is an optional companion service (currently for macOS) that lets agents operate a computer's GUI remotely — controlling mouse and keyboard, managing multiple devices at once, and running scheduled tasks with heartbeat monitoring.
 
 ---
 
@@ -43,12 +94,14 @@ Unlike traditional assistants that only respond to commands, DesireCore learns y
 | Platform | Minimum | Recommended |
 |----------|---------|-------------|
 | **Windows** | Windows 10 (x64) | Windows 11 (x64 / ARM64) |
-| **macOS** | macOS 12 Monterey | macOS 14+ (Intel / Apple Silicon) |
+| **macOS** | macOS 13 Ventura | macOS 14+ (Intel / Apple Silicon) |
 | **Linux** | Ubuntu 20.04+ / Fedora 36+ (x64) | Ubuntu 22.04+ (x64 / ARM64) |
 | **Disk** | 500 MB | 1 GB+ |
 | **RAM** | 4 GB | 8 GB+ |
 | **Network** | Required for AI model API calls | Broadband recommended |
 
+> **Linux** builds also run on mainstream domestic distributions, including UOS, Deepin, and Kylin.
+>
 > **Web version** is currently in development and will run in modern browsers (Chrome, Firefox, Safari, Edge).
 >
 > **Mobile versions** for Android, HarmonyOS, and iOS (iPhone & iPad) are also in development.
@@ -169,19 +222,31 @@ Auto-updates are delivered through our CDN for fast and reliable downloads world
 
 ---
 
+## Pricing & Licensing
+
+DesireCore's core OS is **free** for individuals and small teams — bring your own AI model API key and you're ready to go. Optional managed compute plans and enterprise licensing (SSO, centralized audit, private deployment, dedicated support) are available for larger organizations.
+
+See the [pricing page](https://www.desirecore.com/pricing) for full details.
+
+---
+
 ## FAQ
 
 ### Is DesireCore free?
 
-Yes, DesireCore is free to download and use. You need to bring your own AI model API key (e.g., OpenAI, Anthropic, DeepSeek) to power the AI capabilities.
+Yes, DesireCore is free to download and use. You bring your own AI model API key (e.g., OpenAI, Anthropic, DeepSeek) to power the AI capabilities. Optional managed compute and enterprise licensing are available — see [Pricing & Licensing](#pricing--licensing).
 
 ### What AI models are supported?
 
-DesireCore supports 14+ AI providers out of the box, including OpenAI, Anthropic (Claude), Google (Gemini), DeepSeek, Qwen, and more. You can configure your preferred provider and model in Settings.
+DesireCore supports 14+ AI providers out of the box, including OpenAI, Anthropic (Claude), Google (Gemini), DeepSeek, Qwen, and local models via Ollama. You can configure your preferred provider and model in Settings.
 
 ### Is my data safe?
 
 Yes. All data is stored locally by default. The app works without any network connection for local features. Cloud sync is optional and uses end-to-end encryption.
+
+### What is HostAgent?
+
+HostAgent is an optional companion service (currently for macOS) that lets agents control a computer's GUI remotely — mouse, keyboard, multiple devices, and scheduled tasks with heartbeat monitoring. It's only needed if you want remote desktop automation.
 
 ### Can I use DesireCore without Electron (Web only)?
 
@@ -203,12 +268,14 @@ Agents are file-based (AgentFS). You can share them by:
 ## Links
 
 - [Official Website](https://www.desirecore.com)
+- [Features](https://www.desirecore.com/features)
+- [Pricing](https://www.desirecore.com/pricing)
 - [All Releases](https://github.com/desirecore/agent-os/releases)
 
 ---
 
 ## License
 
-The release binaries are distributed under the [DesireCore License](https://github.com/desirecore/desirecore/blob/main/LICENSE). Starting from v10, DesireCore uses a tiered licensing model designed to balance commercial investment and open-source contribution.
+The release binaries are distributed under the [DesireCore License](https://github.com/desirecore/desirecore/blob/main/LICENSE). Starting from v10, DesireCore uses a tiered licensing model designed to balance commercial investment and open-source contribution. See the [pricing page](https://www.desirecore.com/pricing) for how licensing applies to individuals, teams, and enterprises.
 
 Copyright © 2026 Yunnan Solar Corona Technology Co., Ltd.
