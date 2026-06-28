@@ -5,9 +5,16 @@
 [![GitHub release](https://img.shields.io/github/v/release/desirecore/agent-os)](https://github.com/desirecore/agent-os/releases/latest)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Web-blue)
 ![Electron](https://img.shields.io/badge/Electron-latest-47848F?logo=electron&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)
 
 English | [简体中文](README.zh-CN.md)
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://www.desirecore.com/images/screenshots/agent-swarm-dark.png">
+    <img alt="DesireCore — a multi-agent workspace where specialized agents collaborate" src="https://www.desirecore.com/images/screenshots/agent-swarm-light.png" width="880">
+  </picture>
+</p>
 
 ---
 
@@ -80,6 +87,17 @@ DesireCore adapts to real, everyday work:
 - **Research** — literature review and paper processing
 - **Professional writing** — bids and tenders, official documents, and reports
 - **Domain decisions** — e.g. power-trading decision support
+
+<table>
+  <tr>
+    <td width="50%"><img alt="Smart documents and diff-based review" src="https://www.desirecore.com/images/use-cases/intelligent-doc.png"><br><sub><b>Documents & contracts</b> — smart drafting and diff-based review</sub></td>
+    <td width="50%"><img alt="Unified email management" src="https://www.desirecore.com/images/use-cases/email-center.png"><br><sub><b>Email</b> — unified inbox across Gmail, Outlook, and IMAP</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img alt="Coding with full file-system access" src="https://www.desirecore.com/images/use-cases/code-development.png"><br><sub><b>Software development</b> — coding with file-system access</sub></td>
+    <td width="50%"><img alt="Desktop GUI automation" src="https://www.desirecore.com/images/use-cases/desktop-automation.png"><br><sub><b>Desktop automation</b> — agents drive the GUI end to end</sub></td>
+  </tr>
+</table>
 
 ---
 

@@ -5,9 +5,16 @@
 [![GitHub release](https://img.shields.io/github/v/release/desirecore/agent-os)](https://github.com/desirecore/agent-os/releases/latest)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Web-blue)
 ![Electron](https://img.shields.io/badge/Electron-latest-47848F?logo=electron&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)
 
 [English](README.md) | 简体中文
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://www.desirecore.com/images/screenshots/agent-swarm-dark.png">
+    <img alt="DesireCore —— 多个专精智能体协作的工作台" src="https://www.desirecore.com/images/screenshots/agent-swarm-light.png" width="880">
+  </picture>
+</p>
 
 ---
 
@@ -80,6 +87,17 @@ DesireCore 适配真实的日常工作：
 - **研究** — 文献综述与论文处理
 - **专业写作** — 招标标书、公文与报告
 - **行业决策** — 例如电力交易决策支持
+
+<table>
+  <tr>
+    <td width="50%"><img alt="智能文书与差异审查" src="https://www.desirecore.com/images/use-cases/intelligent-doc.png"><br><sub><b>文书与合同</b> —— 智能起草与基于差异的审查</sub></td>
+    <td width="50%"><img alt="统一邮件管理" src="https://www.desirecore.com/images/use-cases/email-center.png"><br><sub><b>邮件</b> —— 统一管理 Gmail、Outlook、IMAP</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img alt="拥有文件系统访问能力的编码协助" src="https://www.desirecore.com/images/use-cases/code-development.png"><br><sub><b>软件开发</b> —— 拥有文件系统访问能力的编码协助</sub></td>
+    <td width="50%"><img alt="桌面 GUI 自动化" src="https://www.desirecore.com/images/use-cases/desktop-automation.png"><br><sub><b>桌面自动化</b> —— 智能体端到端操作 GUI</sub></td>
+  </tr>
+</table>
 
 ---
 
