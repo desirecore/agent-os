@@ -48,11 +48,24 @@ Agents keep long-term memory across sessions. **Auto Dream** consolidates day-to
 
 ### 👥 Multi-Agent Collaboration
 
-Assemble a team through conversation. DesireCore runs **SubAgents**, async tasks, **Swarm**, and **Team** modes — multiple specialized agents working in parallel to cut latency and token cost.
+Assemble a team of specialists just by describing what you need — no org charts, no manual wiring. DesireCore offers several collaboration modes you can mix and match:
 
-### ⚙️ Workflow Orchestration & Automation
+- **SubAgent** — a lead agent delegates a focused subtask to a child agent and folds the result back in, keeping each context small and on-topic.
+- **Async tasks** — kick off long-running work and keep going; agents report back when they finish instead of blocking the conversation.
+- **Swarm** — many agents work the same problem in parallel, each from a different angle, then converge on a result.
+- **Team** — a persistent group of role-specialized agents (e.g. a planner, a writer, a reviewer) that collaborate toward an ongoing goal.
 
-A visual workflow editor, a decision-tree engine, and replay/debugging. Trigger work on a schedule, by event, or by condition — and let agents drive desktop GUIs (open apps, click buttons, recognize screens) for true end-to-end automation.
+Because work is split across focused agents running in parallel, complex jobs finish faster — and with **fewer tokens** — than driving one monolithic agent.
+
+### ⚙️ Reliable Workflows & Automation
+
+Turn repeatable work into dependable, hands-off automation you can actually trust in production:
+
+- **Visual orchestration** — design multi-step workflows on a canvas, with a decision-tree engine for branching logic and conditions.
+- **Flexible triggers** — start a run on a schedule, on an event, or when a condition is met.
+- **Replay & debugging** — re-run any execution step by step to see exactly what happened and why, making failures reproducible and fixable.
+- **Desktop GUI automation** — agents open apps, click buttons, and recognize screens for true end-to-end automation, even across tools that have no API.
+- **Governed by design** — every step is visible, permissioned per tool, fully audited, and reversible with one-click rollback — so automation stays trustworthy at enterprise scale.
 
 ### 📁 AgentFS — Everything is a File
 
