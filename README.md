@@ -1,6 +1,8 @@
 # DesireCore
 
-[![GitHub release](https://img.shields.io/github/v/release/desirecore/distribution)](https://github.com/desirecore/distribution/releases/latest)
+> An open, delegation-based **AgentOS** (Agent Operating System) — a teachable, file-based AI companion desktop app you can grow.
+
+[![GitHub release](https://img.shields.io/github/v/release/desirecore/agent-os)](https://github.com/desirecore/agent-os/releases/latest)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Web-blue)
 ![Electron](https://img.shields.io/badge/Electron-latest-47848F?logo=electron&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
@@ -59,14 +61,14 @@ Download the latest version for your platform:
 
 | Platform | Architecture | File | Download |
 |----------|-------------|------|----------|
-| Windows | x64 | `.exe` (NSIS installer) | [Download](https://github.com/desirecore/distribution/releases/latest) |
-| Windows | ARM64 | `.exe` (NSIS installer) | [Download](https://github.com/desirecore/distribution/releases/latest) |
-| macOS | Intel (x64) | `.dmg` | [Download](https://github.com/desirecore/distribution/releases/latest) |
-| macOS | Apple Silicon (ARM64) | `.dmg` | [Download](https://github.com/desirecore/distribution/releases/latest) |
-| Linux | x64 | `.AppImage` | [Download](https://github.com/desirecore/distribution/releases/latest) |
-| Linux | ARM64 | `.AppImage` | [Download](https://github.com/desirecore/distribution/releases/latest) |
+| Windows | x64 | `.exe` (NSIS installer) | [Download](https://github.com/desirecore/agent-os/releases/latest) |
+| Windows | ARM64 | `.exe` (NSIS installer) | [Download](https://github.com/desirecore/agent-os/releases/latest) |
+| macOS | Intel (x64) | `.dmg` | [Download](https://github.com/desirecore/agent-os/releases/latest) |
+| macOS | Apple Silicon (ARM64) | `.dmg` | [Download](https://github.com/desirecore/agent-os/releases/latest) |
+| Linux | x64 | `.AppImage` | [Download](https://github.com/desirecore/agent-os/releases/latest) |
+| Linux | ARM64 | `.AppImage` | [Download](https://github.com/desirecore/agent-os/releases/latest) |
 
-Or browse **[all releases](https://github.com/desirecore/distribution/releases)** for older versions.
+Or browse **[all releases](https://github.com/desirecore/agent-os/releases)** for older versions.
 
 You can also download from the [official website](https://www.desirecore.com).
 
@@ -95,7 +97,7 @@ You can also download from the [official website](https://www.desirecore.com).
 3. Run it: `./DesireCore-*.AppImage`
 4. (Optional) Use the included install script for desktop integration:
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/desirecore/distribution/main/scripts/install-linux.sh | bash
+   curl -fsSL https://raw.githubusercontent.com/desirecore/agent-os/main/scripts/install-linux.sh | bash
    ```
 
 ---
@@ -128,7 +130,7 @@ Each release includes SHA-512 checksums in the `latest.yml` / `latest-mac.yml` /
 **macOS / Linux:**
 ```bash
 # Download the verification script
-curl -fsSL https://raw.githubusercontent.com/desirecore/distribution/main/scripts/verify-checksum.sh -o verify.sh
+curl -fsSL https://raw.githubusercontent.com/desirecore/agent-os/main/scripts/verify-checksum.sh -o verify.sh
 chmod +x verify.sh
 
 # Verify a downloaded file
@@ -138,7 +140,7 @@ chmod +x verify.sh
 **Windows (PowerShell):**
 ```powershell
 # Download and run the verification script
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/desirecore/distribution/main/scripts/verify-checksum.ps1" -OutFile verify.ps1
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/desirecore/agent-os/main/scripts/verify-checksum.ps1" -OutFile verify.ps1
 .\verify.ps1 -File "DesireCore_10.0.1_x64.exe" -MetadataFile "latest.yml"
 ```
 
@@ -201,7 +203,7 @@ Agents are file-based (AgentFS). You can share them by:
 ## Links
 
 - [Official Website](https://www.desirecore.com)
-- [All Releases](https://github.com/desirecore/distribution/releases)
+- [All Releases](https://github.com/desirecore/agent-os/releases)
 
 ---
 

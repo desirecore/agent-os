@@ -9,7 +9,7 @@
 #   - 注册 dc:// 协议
 #
 # 用法：
-#   curl -fsSL https://raw.githubusercontent.com/desirecore/distribution/main/scripts/install-linux.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/desirecore/agent-os/main/scripts/install-linux.sh | bash
 #
 # 或手动运行：
 #   ./install-linux.sh [--no-shortcut] [--no-protocol]
@@ -50,7 +50,7 @@ done
 
 # 获取最新版本信息
 echo -e "${YELLOW}正在获取最新版本信息...${NC}"
-RELEASE_INFO=$(curl -fsSL "https://api.github.com/repos/desirecore/distribution/releases/latest")
+RELEASE_INFO=$(curl -fsSL "https://api.github.com/repos/desirecore/agent-os/releases/latest")
 VERSION=$(echo "$RELEASE_INFO" | jq -r '.tag_name')
 
 if [ -z "$VERSION" ] || [ "$VERSION" = "null" ]; then
